@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test if File exists",
+      "setup": "",
+      "run": "python -m unittest test_fizzbuzz.Test.test_file_exists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test fizzbuzz Function",
+      "setup": "",
+      "run": "python -m unittest test_fizzbuzz.Test.test_fizzbuzz",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
